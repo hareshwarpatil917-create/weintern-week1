@@ -1,0 +1,11 @@
+.footer {
+  color: var(--color-muted);
+  margin: 0 auto;
+  max-width: var(--content-width);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}

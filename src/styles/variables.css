@@ -1,0 +1,12 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: #1f2937;
+  background: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  --color-text: #1f2937;
+  --color-muted: #6b7280;
+  --color-accent: #2563eb;
+  --content-width: 72rem;
+}
