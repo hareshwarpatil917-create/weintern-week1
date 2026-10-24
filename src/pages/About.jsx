@@ -1,42 +1,66 @@
 import "./About.css";
+
 function About() {
   return (
     <section className="about">
-      <h1>About Me</h1>
 
-      <div className="about-content">
+      <h2>About Me</h2>
 
-        <div className="about-item">
-          <h3>Name</h3>
-          <p>Hareshwar Patil</p>
+      <p className="about-text">
+        I'm Hareshwar Patil, a B.Tech Information Technology student
+        with a strong interest in frontend web development. I enjoy
+        building responsive websites using HTML, CSS, JavaScript and
+        React while continuously improving my problem-solving skills.
+      </p>
+
+      <div className="education">
+
+        <h3>Education</h3>
+
+        <p>
+          <strong>B.Tech in Information Technology</strong>
+        </p>
+
+        <p>
+          AISSMS Institute of Information Technology, Pune
+        </p>
+
+      </div>
+
+      <h3 className="skills-heading">My Skills</h3>
+
+      <div className="skills-container">
+
+        <div className="skill-card">
+          <h4>Frontend</h4>
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>React</p>
         </div>
 
-        <div className="about-item">
-          <h3>Education</h3>
-          <p>B.Tech in Information Technology</p>
-          <p>AISSMS Institute of Information Technology, Pune</p>
+        <div className="skill-card">
+          <h4>Programming</h4>
+          <p>Java</p>
+          <p>Python</p>
+          <p>C++</p>
         </div>
 
-        <div className="about-item">
-          <h3>Location</h3>
-          <p>Bhusawal, Maharashtra</p>
+        <div className="skill-card">
+          <h4>Database</h4>
+          <p>MySQL</p>
+          <p>SQL Server</p>
         </div>
 
-        <div className="about-item">
-          <h3>Skills</h3>
-          <p>HTML, CSS, JavaScript, React, Git, GitHub</p>
-        </div>
-
-        <div className="about-item">
-          <h3>Career Goal</h3>
-          <p>
-            I enjoy building responsive and user-friendly web
-            applications while continuously improving my frontend
-            development skills.
-          </p>
+        <div className="skill-card">
+          <h4>Tools</h4>
+          <p>Git</p>
+          <p>GitHub</p>
+          <p>VS Code</p>
         </div>
 
       </div>
+
     </section>
   );
 }
