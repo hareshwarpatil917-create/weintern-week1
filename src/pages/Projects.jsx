@@ -4,7 +4,7 @@ function Projects() {
   return (
     <section className="projects">
 
-      <h2>Projects</h2>
+      <h2>My Projects</h2>
 
       <div className="project-container">
 
@@ -13,8 +13,9 @@ function Projects() {
           <p>
             A web application to create professional resumes with multiple templates.
           </p>
-
-          <a href="#">View Project</a>
+      <h4>Technologies Used</h4>
+<p>React, HTML, CSS, JavaScript,Flask</p>
+          
         </div>
 
         <div className="project-card">
@@ -22,8 +23,10 @@ function Projects() {
           <p>
             An e-commerce website with product listing and shopping cart features.
           </p>
+          <h4>Technologies Used</h4>
+<p>React, HTML, CSS,JavaScript</p>
 
-          <a href="#">View Project</a>
+          
         </div>
 
         <div className="project-card">
@@ -31,8 +34,10 @@ function Projects() {
           <p>
             A responsive portfolio website developed using React and Vite.
           </p>
+          <h4>Technologies Used</h4>
+<p>React, Vite, CSS</p>
 
-          <a href="#">View Project</a>
+         
         </div>
 
       </div>

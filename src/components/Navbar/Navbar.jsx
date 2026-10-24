@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <header className="navbar">
       <div className="logo">
-        Hareshwar Patil<span>.</span>
+        Hareshwar Patil
       </div>
 
       <nav>
@@ -19,7 +19,7 @@ function Navbar() {
           </li>
 
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/projects">My Projects</NavLink>
           </li>
 
           <li>
