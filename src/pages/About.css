@@ -63,3 +63,22 @@
 }
 
 }
+@media (max-width:768px){
+
+    .about{
+        padding:50px 6%;
+        text-align:center;
+    }
+
+    .about-text{
+        max-width:100%;
+    }
+
+    .skills-container{
+        grid-template-columns:1fr;
+    }
+
+    .skill-card{
+        width:100%;
+    }
+}

@@ -39,3 +39,18 @@
     color:#2563eb;
     font-weight:600;
 }
+@media (max-width:768px){
+
+    .projects{
+        padding:50px 6%;
+    }
+
+    .projects-container{
+        grid-template-columns:1fr;
+    }
+
+    .project-card{
+        width:100%;
+    }
+
+}

@@ -2,6 +2,7 @@ import Hero from "../components/Hero/Hero"
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
+import Footer from "../components/Footer/Footer";
 function Home(){
   return(
     <>
@@ -9,6 +10,8 @@ function Home(){
      <About />
       <Projects />
       <Contact />
+      <Footer/>
+
       </>
   );
 }

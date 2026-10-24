@@ -48,3 +48,20 @@
     min-height:180px;
     resize:vertical;
 }
+@media (max-width:768px){
+
+    .contact{
+        padding:50px 6%;
+    }
+
+    .contact-form{
+        width:100%;
+    }
+
+    .contact-form input,
+    .contact-form textarea,
+    .contact-form button{
+        width:100%;
+    }
+
+}

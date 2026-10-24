@@ -47,3 +47,22 @@ body{
 .nav-links a.active{
     color:#3b82f6;
 }
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction:column;
+        gap:20px;
+        padding:20px;
+    }
+
+    .nav-links{
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+
+    .logo{
+        font-size:2rem;
+    }
+
+}
