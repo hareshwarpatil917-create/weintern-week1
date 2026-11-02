@@ -1,16 +1,83 @@
-# React + Vite
+Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+This project is a responsive personal portfolio website developed as part of my Web Development Internship Task 1. The main objective was to build a clean and modern portfolio using React while making sure it works well on different screen sizes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The website introduces me, highlights my skills, showcases sample projects, and provides contact information in a simple and organized layout.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- Vite
+- HTML5
+- CSS3
+- JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Features
+
+- Responsive navigation bar
+- Hero section with introduction
+- About section
+- Projects section
+- Contact section
+- Footer with social links
+- Mobile-friendly design
+- Clean and reusable React components
+
+---
+
+Project Structure
+
+portfolio-website/
+│
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── README.md
+└── vite.config.js
+
+---
+
+Getting Started
+
+Clone the repository and install the required packages.
+
+npm install
+
+Start the development server.
+
+npm run dev
+
+To create a production build:
+
+npm run build
+
+---
+
+Live Demo
+
+Netlify:
+
+https://hareshwar-patil-portfolio.netlify.app
+---
+
+
+
+
+
+Hareshwar Patil
+
+B.Tech Information Technology
+
+AISSMS Institute of Information Technology
